@@ -1,0 +1,33 @@
+div {
+  background: url('./images/form-bg.jpg');
+  width: 550px;
+  padding: 30px;
+  margin: 25px;
+}
+input[type='text'], input[type='number'], input[type='email'], textarea{
+  width: 70%;
+  padding: 6px;
+  border-radius: 3px;
+  float: right;
+}
+label#address-label {
+  vertical-align: top;
+}
+fieldset {
+  background-color: rgba(140,164,188,0.8);
+  margin: 2px 0;
+  border-radius: 6px;
+  border: 1px solid rgb(228,254,255);
+}
+p{
+  color: rgba(205,231,238,1)
+}
+input[type=submit] {
+  width: 16%;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+  padding:  8px;
+}

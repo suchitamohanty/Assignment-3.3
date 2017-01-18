@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Styling Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <p>Step 1: Your details</p>
+    <fieldset>
+      <label>Name: </label>
+      <input type="text" name="name" placeholder="First and last name"/>
+    </fieldset>
+    <fieldset>
+      <label>Email: </label>
+      <input type="email" name="email" placeholder="example@domain.com"/>
+    </fieldset>
+    <fieldset>
+      <label>Phone: </label>
+      <input type="number" name="email" placeholder="e.g +4475000000">
+    </fieldset>
+    <p>Step 1: Delivery address</p>
+    <fieldset>
+      <label for="address" id="address-label">Address:</label>
+      <textarea rows="7" cols="56" name='address' id='address'></textarea>
+    </fieldset>
+    <fieldset>
+      <label>Post code: </label>
+      <input type="number" name="post code" size="30" maxlength="100" />
+    </fieldset>
+    <fieldset>
+      <label>Country: </label>
+      <input type="text" name="post code" size="30" maxlength="100" />
+    </fieldset>
+    <p>Step 1: Card details</p>
+    <fieldset>
+      <label for="">card type:</label>
+    </br>
+    <input type="radio" value="Visa"> Visa
+    <img src="images/visa.png" width="20" height="18"> &nbsp &nbsp
+    <input type="radio" value="AmEx"> AmEx
+    <img src="images/amex.png" width="20" height="18"> &nbsp &nbsp
+    <input type="radio" value="Master Card"> Master Card
+    <img src="images/mastercard.png" width="20" height="18">
+  </fieldset>
+  <fieldset>
+    <label>Card Number:</label>
+    <input type="number" name="card number"/>
+  </fieldset>
+  <fieldset>
+    <label>Security code:</label>
+    <input type="number" name="security code"/>
+  </fieldset>
+  <fieldset>
+    <label>Name on card:</label>
+    <input type="text" name="name on the card" placeholder="Exact name as on the card"/>
+  </fieldset>
+  <br>
+  <input type="submit" value="BYE IT!">
+</form>
+</div>
+
+</body>
+</html>
